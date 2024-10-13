@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Summaries in Table</title>
+    <link rel="shortcut icon" href="Media/fav.jfif" type="image/x-icon">
+    <style>
+        table{
+            border-collapse: collapse;
+            
+        }
+        td, th{
+            border: 1.5px solid black;
+            padding: 5px 10px;
+            text-align: center;
+        }
+        .Owner {
+            color: red;
+            /* text-decoration:underline blue 1px; */
+            -webkit-text-stroke: 1px;
+        }
+        footer{
+            text-align: center;
+            margin-top: 250px;
+        }
+        nav > ul > li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Menu.html" target="_blank">Menu</a></li>
+                <li><a href="About.html" target="_blank">About</a></li>
+                <li><a href="login.html" target="_blank">Log in</a></li>
+                <li><a href="table.html" >Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Name</th>
+                    <th>Company </th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Larry Page</td>
+                    <td>Google</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Steps Jobs</td>
+                    <td>Apple</td>
+                    <td>$1300</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>mark jucu</td>
+                    <td>Facebook</td>
+                    <td>$1400</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Note: This is Important</td>
+                    <td> $4000</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <p><small>&copy;2024.All right reserved <br>Created By <span class="Owner">Yeasin Kabir Shifat</span></small></p>
+    </footer>
+</body>
+</html>
