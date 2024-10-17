@@ -1,14 +1,26 @@
 .Parent{
     background-color: bisque;
-    /* padding: 15px; */
+    padding: 15px;
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    justify-content: space-around;
+    
+    
+    
+}
+.Father{
+    background-color: rgb(17, 198, 44);
+    padding: 15px;
+    display: flex;
+    gap: 30px;
+    justify-content:space-around;
+    height: 350px;
+    align-items: start;
 }
 
 .child{
     border: 2px solid rgb(73, 97, 35);
     background-color: aqua;
-    margin: 10px 0;
     padding: 20px;
     font-size: 28px;
     
@@ -17,7 +29,6 @@
 .son{
     border: 2px solid rgb(73, 97, 35);
     background-color: aqua;
-    margin: 10px 0;
     padding: 20px;
     font-size: 28px;
     
