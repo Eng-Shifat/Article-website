@@ -1,0 +1,32 @@
+.Parent{
+    background-color: bisque;
+    /* padding: 15px; */
+    display: flex;
+    gap: 10px;
+}
+
+.child{
+    border: 2px solid rgb(73, 97, 35);
+    background-color: aqua;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 28px;
+    
+}
+
+.son{
+    border: 2px solid rgb(73, 97, 35);
+    background-color: aqua;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 28px;
+    
+}
+
+.boy{
+    border: 2px solid rgb(73, 97, 35);
+    background-color: aqua;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 28px;
+}
